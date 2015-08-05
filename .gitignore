@@ -17,4 +17,6 @@
 /tmp
 #Add myself
 .secret
-
+.project
+.DS_Store
+.idea
