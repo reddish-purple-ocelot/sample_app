@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe User do
 
-  before { @user =  User.new(name: "Val", email: "val.slyun@gmail.com", 
-                             password: "foobar", password_comfirmation: "foobar") }
+  before { @user =  User.new(name: "Val", email: "val.slyun@gmail.com",
+                             password: "foobar", password_confirmation: "foobar") }
 
   subject { @user }
 
