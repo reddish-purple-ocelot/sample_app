@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AuthenticationPageTest < ActionDispatch::IntegrationTest
+class AuthenticationPagesTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end
