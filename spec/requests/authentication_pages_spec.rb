@@ -64,7 +64,7 @@ describe "Authentication" do
 
       describe "when attempting to visit a protect page" do
         before do
-          visit edit_user_page(user)
+          visit edit_user_path(user)
           valid_signin(user)
         end
 
