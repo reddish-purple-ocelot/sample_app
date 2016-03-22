@@ -2,6 +2,9 @@
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
 # Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# admin = User.create(name:'Valya', 
+											# role:'admin',
+											# email:'val.slyun@gmail.com', 
+											# remember_token:'',
+											# password_digest: '')
