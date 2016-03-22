@@ -21,7 +21,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.all
+    @users = User.where(role: "client")
   end
 
   def edit

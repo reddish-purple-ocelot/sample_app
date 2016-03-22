@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20160322123159) do
 
   create_table "users", force: true do |t|
     t.string   "name"
-    t.string   "role"
+    t.string   "role",            default: "client"
     t.string   "email"
     t.string   "remember_token"
     t.string   "password_digest"
