@@ -8,4 +8,4 @@ Project with TDD and capybara
 
 > rake test:prepare
 
-> bundle exec rspec spec/models/user_spec.rb
+< bundle exec rspec spec/models/user_spec.rb
