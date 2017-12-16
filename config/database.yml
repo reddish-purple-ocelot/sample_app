@@ -2,19 +2,15 @@ default: &default
   adapter: postgresql
   pool: 5
   timeout: 5000
-
-users: &users
   user: valya
   password: valya
 
 development:
   <<: *default
-  <<: *users
   database: sample_app_development
 
 test: &test
   <<: *default
-  <<: *users
   database: sample_app_test
 
 production:

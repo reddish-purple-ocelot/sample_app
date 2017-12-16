@@ -1,8 +1,11 @@
-  @import "bootstrap";
+@import "bootstrap";
 
 /* mixins, variables, etc. */
-
-$grayMediumLight: #eaeaea;
+$white: #eeeeee;
+$grayLight: #eaeaea;
+$grayLighter: #cdcdcd;
+$grayMediumLight: #ababab;
+$grayDarker: #444444;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -21,7 +24,7 @@ $grayMediumLight: #eaeaea;
 
 /*universal*/
 html{
-  overflow-y: scroll; 
+  overflow-y: scroll;
 }
 
 body{
@@ -168,8 +171,7 @@ input {
 }
 
 .field_with_errors {
-  @extend .control-group;
-  @extend .error;
+  color: #f64;
 }
 
 /* Users index */
@@ -180,7 +182,7 @@ input {
   li {
     overflow: auto;
     padding: 10px 0;
-    margin: 10px 0; 
+    margin: 10px 0;
     border: 1px solid $grayLighter;
     &:last-child {
       border-bottom: 1px solid $grayLighter;
